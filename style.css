@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero .container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    gap: 100px;
+}
+
+.hero .header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .header .right-links ul {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero .header .right-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 500;
+}
+
+.hero .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero .content .sign-up {
+    width: 30%
+}
+
+.hero .content .sign-up h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero .content .sign-up p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .content .sign-up button {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.hero .content .image-placeholder {
+    width: 35%;
+    color: white;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
